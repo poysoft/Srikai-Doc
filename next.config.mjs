@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: false,
   output: "export",
-  assetPrefix: ".",
+  assetPrefix: "https://poysoft.github.io/srikai-doc/docs",
   // assetPrefix: "/Srikai-Doc",
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
   // trailingSlash: true,
@@ -13,7 +13,7 @@ const nextConfig = {
   // Optional: Change the output directory `out` -> `dist`
   distDir: "docs",
   // basePath: "/Srikai-Doc",
-  basePath: "/Srikai-Doc",
+  basePath: "/srikai-doc",
   images: {
     unoptimized: true,
   },
