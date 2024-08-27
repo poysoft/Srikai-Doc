@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
+  assetPrefix: "/Srikai-Doc",
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
   // trailingSlash: true,
 
@@ -8,7 +9,7 @@ const nextConfig = {
   // skipTrailingSlashRedirect: true,
 
   // Optional: Change the output directory `out` -> `dist`
-  distDir: 'docs',
+  distDir: "docs",
   // basePath: "/Srikai-Doc",
   basePath: "/Srikai-Doc",
   reactStrictMode: true,
