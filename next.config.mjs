@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  reactStrictMode: false,
   output: "export",
-  assetPrefix: "/Srikai-Doc",
+  assetPrefix: ".",
+  // assetPrefix: "/Srikai-Doc",
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
-  trailingSlash: true,
+  // trailingSlash: true,
 
   // Optional: Prevent automatic `/me` -> `/me/`, instead preserve `href`
   // skipTrailingSlashRedirect: true,
@@ -12,7 +14,6 @@ const nextConfig = {
   distDir: "docs",
   // basePath: "/Srikai-Doc",
   basePath: "/Srikai-Doc",
-  reactStrictMode: true,
   images: {
     unoptimized: true,
   },
