@@ -10,7 +10,7 @@ const nextConfig = {
   // Optional: Change the output directory `out` -> `dist`
   distDir: 'docs',
   // basePath: "/Srikai-Doc",
-  basePath: "/Srikai-Doc/docs",
+  basePath: "/Srikai-Doc",
   reactStrictMode: true,
   images: {
     unoptimized: true,
